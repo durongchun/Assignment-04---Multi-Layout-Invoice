@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+/* CSS Reset */
+html {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+header {
+    height: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    align-items: flex-start;
+    height: 50%;
+
+
+}
+
+table {
+    border-collapse: collapse;
+    height: 30%;
+
+}
+
+header .box {
+    margin: 5px;
+}
+
+header .box:nth-last-child(1) {
+    flex-direction: column;
+    /* Aligns children vertically */
+    justify-content: flex-start;
+    text-align: right;
+    margin-top: 20px;
+}
+
+main {
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+main div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: left;
+
+}
+
+.second {
+    text-align: center;
+    justify-content: flex-end;
+
+}
+
+.second tr td {
+    border: solid 1px black;
+    vertical-align: middle;
+
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    text-align: left;
+    gap: 10px;
+
+
+}
+
+.third tr td {
+    justify-content: flex-end;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.total_due {
+    padding-right: 0px;
+}
+
+.empty td {
+    padding-top: 50px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
