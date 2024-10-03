@@ -9,31 +9,38 @@
 </head>
 
 <body>
-    <header>
-        <img src="./image/coding-code-svgrepo-com.svg" alt="logo">
-        <div class="box">
-            <p>Example Co. <br>123 Example Street <br> Suite 101 Exampleton, BC <br>A1A 1A1 <br>durongchun@hotmail.com
-            </p>
-        </div>
-        <div class="box">Invoice 001</div>
-    </header>
     <main>
-        <div class="box first">
-            <p>BILL TO: <br>Client Name <br> Client Company Name <br> 123 Example Street <br> Suite 01 <br>
-                DemoVile, BC <br>A1A 1A1 <br>durongchun@hotmail.com <br>
-            </p>
-        </div>
-        <div class="box second">
-            <table>
-                <tr>
-                    <td>DATE <br> 2023/11/11</td>
-                    <td>PLEASE PAY <br> CAD 9100.00</td>
-                    <td>PLEASE PAY <br> 2023/11/11</td>
-                </tr>
-            </table>
-        </div>
+        <header>
+            <div class="company">
+                <img src="./image/coding-code-svgrepo-com.svg" alt="logo">
+                <div class="address">
+                    <p>Example Co. <br>123 Example Street <br> Suite 101 Exampleton, BC <br>A1A 1A1
+                        <br>durongchun@hotmail.com
+                    </p>
+                </div>
+                <div class="invoice">Invoice 001</div>
+            </div>
+        </header>
+        <section class="bill">
+            <div class="content-first">
+                <p>BILL TO: <br>Client Name <br> Client Company Name <br> 123 Example Street <br> Suite 01 <br>
+                    DemoVile, BC <br>A1A 1A1 <br>durongchun@hotmail.com <br>
+                </p>
+            </div>
+            <div class="content-second">
+                <p></p>
+                <table>
+                    <tr>
+                        <td>DATE <br> 2023/11/11</td>
+                        <td>PLEASE PAY <br> CAD 9100.00</td>
+                        <td>PLEASE PAY <br> 2023/11/11</td>
+                    </tr>
+                </table>
+            </div>
 
-        <div class="box third">
+        </section>
+
+        <div class="content-third">
             <table>
                 <thead>
                     <tr>
@@ -64,10 +71,11 @@
                 </tbody>
             </table>
         </div>
+
+        <footer>
+            <p>@ 2023 - Example</p>
+        </footer>
     </main>
-    <footer>
-        <p>@ 2023 - Example</p>
-    </footer>
 </body>
 
 </html>

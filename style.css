@@ -15,109 +15,69 @@ html {
 
 html,
 body {
-    height: 100%;
+    padding: 0;
+    margin: 0;
 
 }
 
-header {
-    height: 20%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+
+
+.company {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    height: 150px;
 }
 
-header img {
-    align-items: flex-start;
-    height: 60%;
-    padding-top: 5px;
-    margin: 20px;
-
-
+.bill {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-table {
-    border-collapse: collapse;
-    height: 30%;
-
+.content-second {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: start;
+    justify-items: end;
+    align-content: space-between;
 }
 
-header .box {
-    margin: 5px;
+.content-second>table {
+    margin-right: 40px;
 }
 
-header .box:nth-last-child(1) {
-    flex-direction: column;
-    /* Aligns children vertically */
-    justify-content: flex-start;
+.invoice {
     text-align: right;
-    margin-top: 20px;
-}
-
-main {
-    height: 70%;
-    display: flex;
-    flex-wrap: wrap;
+    margin-right: 50px;
 
 }
 
-main div {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+
+.company>img {
+    height: 50%;
+    padding-top: 2px;
+    margin: 10px;
 }
 
-.box {
-    display: flex;
-    flex-basis: 50%;
-    justify-content: left;
-
-}
-
-.second {
-    text-align: center;
-    justify-content: flex-end;
+.content-third {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 100px;
 
 }
 
-.second tr td {
-    border: solid 1px black;
-    vertical-align: middle;
-
-}
-
-.third {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
+.content-third>table>thead {
     text-align: left;
-    gap: 10px;
-
-
 }
 
-.third tr td {
-    justify-content: flex-end;
+.empty {
+    min-height: 200px;
 }
-
-.center {
-    text-align: center;
-}
-
-.right {
-    text-align: right;
-}
-
-.total_due {
-    padding-right: 0px;
-}
-
-.empty td {
-    padding-top: 50px;
-}
-
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: right;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: right;
+    margin-top: 300px;
+    margin-right: 50px;
+
 }
