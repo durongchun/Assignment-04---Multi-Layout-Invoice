@@ -20,8 +20,6 @@ body {
 
 }
 
-
-
 .company {
     display: grid;
     grid-template-columns: 1fr 3fr 3fr;
@@ -33,21 +31,39 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.content-first {
+    margin-left: 10px;
+}
+
 .content-second {
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 20fr;
+    grid-template-rows: 5fr 1fr;
     align-items: start;
     justify-items: end;
     align-content: space-between;
 }
 
 .content-second>table {
-    margin-right: 40px;
+    border-collapse: collapse;
+    height: 90%;
+    margin: 20px;
+}
+
+.content-second tr td {
+    border: solid 1px black;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.content-second>table {
+    margin-right: 10px;
 }
 
 .invoice {
     text-align: right;
-    margin-right: 50px;
+    margin-right: 20px;
+    padding-top: 20px;
 
 }
 
@@ -69,15 +85,19 @@ body {
     text-align: left;
 }
 
-.empty {
-    min-height: 200px;
+.content-third>table {
+    margin-left: 10px;
+}
+
+.empty td {
+    padding-top: 50px;
 }
 
 footer {
     display: grid;
     grid-template-columns: 1fr;
     text-align: right;
-    margin-top: 300px;
-    margin-right: 50px;
+    margin-top: 200px;
+    margin-right: 10px;
 
 }
