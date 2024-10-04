@@ -27,7 +27,7 @@ body {
 }
 
 .company>img {
-    height: 80%;
+    height: 75%;
     padding-top: 20px;
     margin-left: 30px;
 }
@@ -35,6 +35,7 @@ body {
 .bill {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
 }
 
 .content-first {
@@ -107,7 +108,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     text-align: right;
-    margin-top: 270px;
+    margin-top: 240px;
     margin-right: 10px;
 
 }
