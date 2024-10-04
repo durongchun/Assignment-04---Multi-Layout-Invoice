@@ -62,7 +62,7 @@ body {
 
 .invoice {
     text-align: right;
-    margin-right: 20px;
+    margin-right: 10px;
     padding-top: 20px;
 
 }
@@ -87,10 +87,19 @@ body {
 
 .content-third>table {
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 .empty td {
     padding-top: 50px;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
 }
 
 footer {
